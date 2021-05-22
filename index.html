@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Slider</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <section>
+        <video  id="slider" autoplay muted loop>
+            <source src="./videos/video1.mp4" type="video/mp4">
+        </video>
+        <video id="slider" src="" autoplay muted loop>
+            <source src="./videos/video2.mp4" type="video/mp4">
+        </video>
+        <video id="slider" src="" autoplay muted loop>
+            <source src="./videos/video3.mp4" type="video/mp4">
+        </video>
+        <video id="slider" src="" autoplay muted loop>
+            <source src="./videos/video4.mp4" type="video/mp4">
+        </video>
+        <ul class="navigation">
+            <li onclick="videoURL('./videos/video1.mp4')"><img src="./videos/video1.png" alt="" srcset=""></li>
+            <li onclick="videoURL('./videos/video2.mp4')"><img src="./videos/video2.png" alt="" srcset=""></li>
+            <li onclick="videoURL('./videos/video3.mp4')"><img src="./videos/video3.png" alt="" srcset=""></li>
+            <li onclick="videoURL('./videos/video4.mp4')"><img src="./videos/video4.png" alt="" srcset=""></li>
+        </ul>
+    </section>
+
+    <script src="slider.js"></script>
+</body>
+</html>

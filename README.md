@@ -1,1 +1,1 @@
-# Video-Slider
+# Video Slider
